@@ -70,7 +70,7 @@ public class DoubleLinkedList<E> implements DoublyLinkedListInterface<E> {
         if(head.getNext()==null){
             head=null;
             size--;
-            response=null;
+            response=temp.getData();
             return response;
         }
         else {
@@ -89,8 +89,8 @@ public class DoubleLinkedList<E> implements DoublyLinkedListInterface<E> {
         response = temp.getData();
         node.next=null;
         temp.previous=null;
+        size--;
         return response;
-
     }
 
 

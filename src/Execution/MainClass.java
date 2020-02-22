@@ -21,6 +21,19 @@ public class MainClass {
             System.out.println("ur data does not exists");
         dl.removeNodeFromLastPos();
         dl.printList();
+        dl.removeNodeFromLastPos();
+        dl.printList();
+        dl.removeNodeFromLastPos();
+        dl.printList();
+        dl.removeNodeFromLastPos();
+        dl.printList();
+
+        dl.insertNode(9);
+        dl.printList();
+        dl.insertNode(5);
+        dl.printList();
+        dl.insertNode(7);
+        dl.printList();
     }
 }
 
